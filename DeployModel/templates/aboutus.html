@@ -1,0 +1,227 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>aboutus</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+        <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar navbar-inverse fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{%url 'home' %}">Kidney Disease Prediction</a>
+    </div>
+    <div class="container">
+    <div class="row">
+    <ul class="nav ratnesh">
+      <li><a href="{%url 'home' %}">Home</a></li>
+      <li class="active"><a href="{%url 'aboutus' %}">About Us</a></li>
+    </ul>
+    <div>
+    <div>
+  </div>
+</nav>
+
+<br>
+<div class="container">
+    <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-4 order-sm-first col-md-8">
+            <h2>Specific Gravity- sg</h2>
+            <h4>Range: 1.000-1.025</h4>
+            <p>Specific gravity measures the kidney's ability to concentrate or dilute urine in relation to plasma. Because urine is a solution of minerals, salts, and compounds dissolved in water, the specific gravity is greater than 1.000. The more concentrated the urine, the higher the urine specific gravity. An adult's kidneys have a remarkable ability to concentrate or dilute urine. In infants, the range for specific gravity is less because immature kidneys are not able to concentrate urine as effectively as mature kidneys.
+
+Glucose, protein, or dyes used in diagnostic tests excreted into the urine increase the specific gravity.</p>
+<br><p> If none of these abnormal substances are present in the urine, there are two primary reasons why the kidney is producing concentrated urine with a high specific gravity. The first and most common reason for an increase in urine specific gravity is dehydration. The second reason for a high specific gravity is an increased secretion of anti-diuretic hormone (ADH). ADH causes increased tubular water re-absorption and decreased urine volume. Trauma, stress reactions, surgery, and many drugs cause an increase in ADH secretion.</p>
+
+        </div>
+        <div class="col col-sm order-sm-last col-md">
+      <div class="media" >
+        <img class="d-flex mr-3 img-thumbnail align-self-center order-sm-last" height: 200
+        src="{% static 'sg.png' %}">
+      </div>
+    </div>
+    </div>
+</div>
+<hr></hr>
+
+<br>
+<div class="container">
+    <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-4 order-sm-first col-md-8">
+            <h2>Albumin- al</h2>
+            <h4>Range: 0-5</h4>
+            <p>Albuminuria is a sign of kidney disease and means that you have too much albumin in your urine. Albumin is a protein found in the blood. A healthy kidney doesn’t let albumin pass from the blood into the urine. A damaged kidney lets some albumin pass into the urine. The less albumin in your urine, the better.</p>
+<br><p> A urine albumin level that stays the same or goes down may mean that treatments are working. Treatment that lowers the urine albumin level may lower the chances that kidney disease will progress to kidney failure.
+
+People who have diabetes, high blood pressure, heart disease, or a family history of kidney failure are at risk for kidney disease. Talk with your health care provider about how often you should get a urine test for albumin.
+
+</p>
+
+        </div>
+        <div class="col col-sm order-sm-last col-md">
+      <div class="media" >
+        <img class="d-flex mr-3 img-thumbnail align-self-center order-sm-last" height: 200
+        src="{% static 'al.png' %}">
+      </div>
+    </div>
+    </div>
+</div>
+<hr></hr>
+
+<br>
+<div class="container">
+    <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-4 order-sm-first col-md-8">
+            <h2>Serum Creatinine- sc</h2>
+            <h4>Range: 0-8</h4>
+            <p>The kidneys maintain the blood creatinine in a normal range. Creatinine has been found to be a fairly reliable indicator of kidney function. Elevated creatinine level signifies impaired kidney function or kidney disease.
+
+As the kidneys become impaired for any reason, the creatinine level in the blood will rise due to poor clearance of creatinine by the kidneys. Abnormally high levels of creatinine thus warn of possible malfunction or failure of the kidneys. It is for this reason that standard blood tests routinely check the amount of creatinine in the blood.</p>
+<br><p>A more precise measure of the kidney function can be estimated by calculating how much creatinine is cleared from the body by the kidneys. This is referred to as creatinine clearance and it estimates the rate of filtration by kidneys (glomerular filtration rate, or GFR).</p> 
+
+        </div>
+        <div class="col col-sm order-sm-last col-md">
+      <div class="media" >
+        <img class="d-flex mr-3 img-thumbnail align-self-center order-sm-last" height: 200
+        src="{% static 'sc.png' %}">
+      </div>
+    </div>
+    </div>
+</div>
+<hr></hr>
+
+<br>
+<div class="container">
+    <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-4 order-sm-first col-md-8">
+            <h2>Hemoglobin- hemo</h2>
+            <h4>Range: 0-18</h4>
+            <p>Maintaining higher hemoglobin levels in patients with chronic kidney failure increases the risk for death and for serious cardiovascular reactions such as stroke, heart attack, or heart failure.” Similarly, the 2007 NKF update of the Hb target recommendation states that, although the lower limit of the target Hb range remains 11 g/dl, the target range is 11–12 g/dl, and patients who are receiving an ESA should maintain an Hb target that is ≤ 13 g/dl.23</p>
+<br><p>Anemia, as defined by the NKF, is a hemoglobin (Hb) concentration < 12 g/dl for women and < 13.5 g/dl for men.3 Conversely, the European Best Practices Guidelines for the Management of Anemia in Patients with Chronic Renal Failure defines anemia according to age and sex. Anemia is defined as an Hb concentration of < 11.5 g/dl in women, < 13.5 g/dl in men ≤ 70 years of age, and < 12 g/dl in men > 70 years of age.4</p> 
+
+        </div>
+        <div class="col col-sm order-sm-last col-md">
+      <div class="media" >
+        <img class="d-flex mr-3 img-thumbnail align-self-center order-sm-last" height: 200
+        src="{% static 'hemo.png' %}">
+      </div>
+    </div>
+    </div>
+</div>
+<hr></hr>
+
+<br>
+<div class="container">
+    <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-4 order-sm-first col-md-8">
+            <h2>Packed Cell Volume- pcv</h2>
+            <h4>Range: 0-60</h4>
+            <p>The packed cell volume (PCV) is a measurement of the proportion of blood that is made up of cells. The value is expressed as a percentage or fraction of cells in blood. For example, a PCV of 40% means that there are 40 millilitres of cells in 100 millilitres of blood.</p>
+<br><p>The mean PCV, reticulocyte and reticulocyte index among the CKD patients were; 33.32 ± 7.97, 3.85 ±
+1.18 and 2.82 ± 0.95 respectively compared to 35.11 ± 5.14, 4.03 ± 0.78 and 3.17 ± 0.74 respectively. Table 1
+show the mean packed Cell Volume (PCV), reticulocyte count and reticulocyte index of CKD patients and non-renal
+controls. The differences between the PCV and reticulocyte count and reticulocyte index of subjects and controls
+was statistically significant (p= 0.001 and 0.010 and 0.033 respectively). </p> 
+
+        </div>
+        <div class="col col-sm order-sm-last col-md">
+      <div class="media" >
+        <img class="d-flex mr-3 img-thumbnail align-self-center order-sm-last" height: 200
+        src="{% static 'pcv.png' %}">
+      </div>
+    </div>
+    </div>
+</div>
+<hr></hr>
+
+<br>
+<div class="container">
+    <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-4 order-sm-first col-md-8">
+            <h2>Hypertension- htn</h2>
+            <h4>Range: 0 or 1</h4>
+            <p>Blood pressure is the force of blood pushing against blood vessel walls as your heart pumps out blood. High blood pressure NIH external link, also called hypertension, is an increase in the amount of force that blood places on blood vessels as it moves through the body.
+
+</p>
+<br><p>High blood pressure can constrict and narrow the blood vessels, which eventually damages and weakens them throughout the body, including in the kidneys. The narrowing reduces blood flow.
+
+If your kidneys’ blood vessels are damaged, they may no longer work properly. When this happens, the kidneys are not able to remove all wastes and extra fluid from your body. Extra fluid in the blood vessels can raise your blood pressure even more, creating a dangerous cycle, and cause more damage leading to kidney failure.
+
+</p> 
+
+        </div>
+        <div class="col col-sm order-sm-last col-md">
+      <div class="media" >
+        <img class="d-flex mr-3 img-thumbnail align-self-center order-sm-last" height: 200
+        src="{% static 'htn.png' %}">
+      </div>
+    </div>
+    </div>
+</div>
+<br>
+<br>
+
+
+
+        
+        <script src="" async defer></script>
+    </body>
+    <footer class="footer">
+    <br>
+    <div class="container">
+        <div class="row">             
+            <div class="col-4 offset-1 col-sm-2">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="{%url 'home' %}">Home</a></li>
+                    <li><a href="{%url 'aboutus' %}">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-7 col-sm-5">
+                <h5>Our Address</h5>
+                <address>
+                  231,M.G. Road,<br>
+                  Chikuwadi,<br>
+                  Borivali West,<br>
+                  Mumbai-92<br>
+                  Tel.: +852 1234 5678<br>
+                  Fax: +852 8765 4321<br>
+                  Email: <a href="tsec.com">happykidney.co.net</a>
+              </address>
+            </div>
+            <div class="col-12 col-sm-4 align-self-center">
+                <div class="text-center">
+                    <a href="http://google.com/+">Google+</a>
+                    <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
+                    <a href="http://www.linkedin.com/in/">LinkedIn</a>
+                    <a href="http://twitter.com/">Twitter</a>
+                    <a href="http://youtube.com/">YouTube</a>
+                    <a href="mailto:">Mail</a>
+                </div>
+            </div>
+       </div>
+       <div class="row justify-content-center">             
+            <div class="col-auto">
+                <p>© Copyright 2021 Kidney Disease Prediction</p>
+            </div>
+       </div>
+    </div>
+  </footer>  
+</html>

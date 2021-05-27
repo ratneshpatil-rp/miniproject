@@ -1,0 +1,36 @@
+.jeet{
+    color: blue;
+}
+
+.ratnesh{
+    color: whitesmoke;
+}
+
+.imgsize{
+    height: 300px;
+    width: 600px;
+}
+
+.rt{
+    color: white;
+}
+.btn1{
+    background-color: green;
+    color: white;
+    width: 500px;
+    height: 150px;
+}
+
+.btn2{
+    background-color: green;
+    border-radius: 2px;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+
+}
